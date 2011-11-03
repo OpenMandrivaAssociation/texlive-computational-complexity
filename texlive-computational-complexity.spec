@@ -1,3 +1,9 @@
+# revision 23291
+# category Package
+# catalog-ctan /macros/latex/contrib/computational-complexity
+# catalog-date 2011-07-29 16:36:04 +0200
+# catalog-license lppl
+# catalog-version v2.20
 Name:		texlive-computational-complexity
 Version:	v2.20
 Release:	1
@@ -74,6 +80,7 @@ an algorithm environment, ... The class requires natbib.
 #- source
 %doc %{_texmfdistdir}/source/latex/computational-complexity/cc.dtx
 %doc %{_texmfdistdir}/source/latex/computational-complexity/cc.ins
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -84,3 +91,5 @@ an algorithm environment, ... The class requires natbib.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar bibtex tex doc source %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
