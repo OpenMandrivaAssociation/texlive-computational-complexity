@@ -6,7 +6,7 @@
 # catalog-version v2.20
 Name:		texlive-computational-complexity
 Version:	v2.20
-Release:	1
+Release:	2
 Summary:	Class for the journal Computational Complexity
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/computational-complexity
