@@ -1,12 +1,12 @@
-# revision 23291
+# revision 26250
 # category Package
 # catalog-ctan /macros/latex/contrib/computational-complexity
-# catalog-date 2011-07-29 16:36:04 +0200
+# catalog-date 2012-05-07 19:24:22 +0200
 # catalog-license lppl
-# catalog-version v2.20
+# catalog-version v2.22
 Name:		texlive-computational-complexity
-Version:	v2.20
-Release:	2
+Version:	v2.22
+Release:	1
 Summary:	Class for the journal Computational Complexity
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/computational-complexity
