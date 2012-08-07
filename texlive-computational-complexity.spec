@@ -1,11 +1,11 @@
-# revision 26250
+# revision 27047
 # category Package
 # catalog-ctan /macros/latex/contrib/computational-complexity
-# catalog-date 2012-05-07 19:24:22 +0200
+# catalog-date 2012-06-22 16:58:16 +0200
 # catalog-license lppl
-# catalog-version v2.22
+# catalog-version v2.25
 Name:		texlive-computational-complexity
-Version:	v2.22
+Version:	v2.25
 Release:	1
 Summary:	Class for the journal Computational Complexity
 Group:		Publishing
