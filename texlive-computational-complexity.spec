@@ -80,3 +80,25 @@ an algorithm environment, ... The class requires natbib.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar bibtex tex doc source %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Tue Aug 07 2012 Paulo Andrade <pcpa@mandriva.com.br> v2.25-1
++ Revision: 812145
+- Update to latest release.
+
+* Mon Jun 11 2012 Paulo Andrade <pcpa@mandriva.com.br> v2.22-1
++ Revision: 804538
+- Update to latest release.
+
+* Tue Jan 03 2012 Paulo Andrade <pcpa@mandriva.com.br> v2.20-2
++ Revision: 750417
+- Rebuild to reduce used resources
+
+* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> v2.20-1
++ Revision: 718114
+- texlive-computational-complexity
+- texlive-computational-complexity
+- texlive-computational-complexity
+- texlive-computational-complexity
+
