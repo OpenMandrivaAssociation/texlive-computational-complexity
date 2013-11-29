@@ -1,11 +1,11 @@
-# revision 27047
+# revision 31923
 # category Package
 # catalog-ctan /macros/latex/contrib/computational-complexity
-# catalog-date 2012-06-22 16:58:16 +0200
+# catalog-date 2013-10-16 17:26:58 +0200
 # catalog-license lppl
-# catalog-version v2.25
+# catalog-version v2.25c
 Name:		texlive-computational-complexity
-Version:	v2.25
+Version:	v2.25c
 Release:	1
 Summary:	Class for the journal Computational Complexity
 Group:		Publishing
@@ -80,25 +80,3 @@ an algorithm environment, ... The class requires natbib.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar bibtex tex doc source %{buildroot}%{_texmfdistdir}
-
-
-%changelog
-* Tue Aug 07 2012 Paulo Andrade <pcpa@mandriva.com.br> v2.25-1
-+ Revision: 812145
-- Update to latest release.
-
-* Mon Jun 11 2012 Paulo Andrade <pcpa@mandriva.com.br> v2.22-1
-+ Revision: 804538
-- Update to latest release.
-
-* Tue Jan 03 2012 Paulo Andrade <pcpa@mandriva.com.br> v2.20-2
-+ Revision: 750417
-- Rebuild to reduce used resources
-
-* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> v2.20-1
-+ Revision: 718114
-- texlive-computational-complexity
-- texlive-computational-complexity
-- texlive-computational-complexity
-- texlive-computational-complexity
-
