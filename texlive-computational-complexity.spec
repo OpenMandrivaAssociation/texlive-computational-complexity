@@ -1,13 +1,13 @@
 Name:		texlive-computational-complexity
-Version:	2.25f
-Release:	2
+Version:	44847
+Release:	1
 Summary:	Class for the journal Computational Complexity
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/computational-complexity
 License:	LPPL
-Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/computational-complexity.tar.xz
-Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/computational-complexity.doc.tar.xz
-Source2:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/computational-complexity.source.tar.xz
+Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/computational-complexity.r%{version}.tar.xz
+Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/computational-complexity.doc.r%{version}.tar.xz
+Source2:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/computational-complexity.source.r%{version}.tar.xz
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
@@ -21,12 +21,12 @@ as more intelligent references, a set of theorem definitions,
 an algorithm environment, ... The class requires natbib.
 
 %post
-    %{_sbindir}/texlive.post
+%{_sbindir}/texlive.post
 
 %postun
-    if [ $1 -eq 0 ]; then
+if [ $1 -eq 0 ]; then
 	%{_sbindir}/texlive.post
-    fi
+fi
 
 #-----------------------------------------------------------------------
 %files
@@ -68,7 +68,8 @@ an algorithm environment, ... The class requires natbib.
 
 #-----------------------------------------------------------------------
 %prep
-%setup -c -a0 -a1 -a2
+%setup -c -a1 -a2
+%autopatch -p1
 
 %build
 
